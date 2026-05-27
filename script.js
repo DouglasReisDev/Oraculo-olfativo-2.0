@@ -24,7 +24,7 @@ const perfumes = [
     name: "Modest une ",
     brand: "Afnan",
     notes: "inspirado em dior sauvage edt",
-    icon: "🪵",
+    icon: "🌊❄️🪵🌿",
     tags: ["primavera", "verao", "dia","outono","noite"]
   },
   {
@@ -32,10 +32,17 @@ const perfumes = [
     name: "9.A.M ",
     brand: "Afnan",
     notes: "thist entre y edt e bleu edp ",
-    icon: "🪵",
+    icon: "❄️🌊🪵",
     tags: ["primavera", "verao", "dia","outono","noite"]
   },
-
+  {
+    id: 4,
+    name: "Supremacy Collector's Edition Pour Homme",
+    brand: "Afnan",
+    notes: "autoral com uma pegada de creed aventus absolu",
+    icon: "🍍🍋🪵",
+    tags: ["primavera", "verao","inverno", "dia","outono","noite"]
+  },
 
   // ── ADICIONE SEUS PERFUMES AQUI ──────────────
   // Exemplo comentado:
