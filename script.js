@@ -21,13 +21,22 @@ const perfumes = [
   },
   {
     id: 2,
-    name: "Daisy",
-    brand: "Marc Jacobs",
-    notes: "Morango silvestre, violeta, jasmim, sândalo",
-    icon: "🌼",
-    tags: ["primavera", "verao", "dia"]
+    name: "Modest une ",
+    brand: "Afnan",
+    notes: "inspirado em dior sauvage edt",
+    icon: "🪵",
+    tags: ["primavera", "verao", "dia","outono","noite"]
   },
-  
+  {
+    id: 3,
+    name: "9.A.M ",
+    brand: "Afnan",
+    notes: "thist entre y edt e bleu edp ",
+    icon: "🪵",
+    tags: ["primavera", "verao", "dia","outono","noite"]
+  },
+
+
   // ── ADICIONE SEUS PERFUMES AQUI ──────────────
   // Exemplo comentado:
   // {
