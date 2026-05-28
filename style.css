@@ -61,7 +61,7 @@ header::after {
 .header-eyebrow {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 10px;
-  font-weight: 300;
+  font-weight: 350;
   letter-spacing: 0.4em;
   text-transform: uppercase;
   color: var(--gold-dim);
