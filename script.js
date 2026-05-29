@@ -19,7 +19,7 @@ const perfumes = [
     inspiredBy: null,
     notes: "Oud, baunilha, âmbar, sândalo, almíscar, especiarias",
     icon: "🪵🌙✨",
-    tags: ["outono", "inverno", "noite"]
+    tags: ["outono", "inverno", "noite","primavera" ]
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const perfumes = [
     inspiredBy: "Dior Sauvage EDT",
     notes: "Bergamota, pimenta, lavanda, ambroxan, vetiver, cedro",
     icon: "🌊💨🌿",
-    tags: ["primavera", "verao", "dia"]
+    tags: ["primavera","outono", "verao", "dia", "noite"]
   },
   {
     id: 3,
@@ -37,8 +37,8 @@ const perfumes = [
     brand: "Afnan",
     category: "CT Árabe",
     inspiredBy: "Bleu de Chanel + Y",
-    notes: "Cítrico, notas marinhas, cedro, incenso, ambroxan, madeira",
-    icon: "🌅🍋🌲",
+    notes: "limão, Hortelã, groselha preta , pimenta rosa, maçã, cedro, incenso, gengibre, sândalo, patchouli, jasmin",
+    icon: "🍋🍏🫚",
     tags: ["primavera", "verao", "dia"]
   },
   {
