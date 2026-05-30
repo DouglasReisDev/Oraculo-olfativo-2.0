@@ -8,6 +8,7 @@
 //    notes: "inspirações olfativas aqui",
 //    icon: "🧴",       ← emoji representativo
 //    tags: ["verao", "dia"]   ← use: primavera | verao | outono | inverno | dia | noite
+//      ["primavera","verao","outono", "inverno", "dia", "noite"]
 //  },
 // ═══════════════════════════════════════════════
 const perfumes = [
@@ -19,7 +20,7 @@ const perfumes = [
     inspiredBy: null,
     notes: "Oud, baunilha, âmbar, sândalo, almíscar, especiarias",
     icon: "🪵🌙✨",
-    tags: ["outono", "inverno", "noite","primavera" ]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 2,
@@ -29,7 +30,7 @@ const perfumes = [
     inspiredBy: "Dior Sauvage EDT",
     notes: "Bergamota, pimenta, lavanda, ambroxan, vetiver, cedro",
     icon: "🌊💨🌿",
-    tags: ["primavera","outono", "verao", "dia", "noite"]
+    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 3,
@@ -39,7 +40,7 @@ const perfumes = [
     inspiredBy: "Bleu de Chanel + Y",
     notes: "limão, Hortelã, groselha preta , pimenta rosa, maçã, cedro, incenso, gengibre, sândalo, patchouli, jasmin",
     icon: "🍋🍏🫚",
-    tags: ["primavera", "verao", "dia"]
+    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 4,
@@ -49,7 +50,7 @@ const perfumes = [
     inspiredBy: "Aventus Absolu - Creed",
     notes: "Abacaxi, bergamota, bétula, patchouli, almíscar, âmbar",
     icon: "🍍🌲👑",
-    tags: ["primavera", "outono", "dia", "noite"]
+    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 5,
@@ -59,7 +60,7 @@ const perfumes = [
     inspiredBy: null,
     notes: "Bergamota, limão, anís, couro, almíscar, madeira",
     icon: "🍋🖤💼",
-    tags: ["outono", "inverno", "noite"]
+    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 6,
@@ -69,7 +70,7 @@ const perfumes = [
     inspiredBy: "Vibrato + Tygar - Sospiro",
     notes: "Rosa, patchouli, couro, baunilha, almíscar, especiado",
     icon: "🌹🖤🎵",
-    tags: ["outono", "inverno", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 7,
@@ -79,7 +80,7 @@ const perfumes = [
     inspiredBy: "Y EDP Intense - Yves Saint Laurent",
     notes: "Maçã, salva, cedro, âmbar, almíscar branco, madeira",
     icon: "🍎🌿⚡",
-    tags: ["outono", "inverno", "dia", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 8,
@@ -89,7 +90,7 @@ const perfumes = [
     inspiredBy: "Prada L'Homme Intense",
     notes: "Íris, âmbar, sálvia, cedro, sândalo, almíscar",
     icon: "🌸🪵💫",
-    tags: ["outono", "inverno", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 9,
@@ -99,7 +100,7 @@ const perfumes = [
     inspiredBy: "Prada Luna Rossa",
     notes: "Lavanda, toranja, bergamota, almíscar, labdano, madeira",
     icon: "🌕💜🌿",
-    tags: ["primavera", "verao", "dia"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 10,
@@ -109,7 +110,7 @@ const perfumes = [
     inspiredBy: "Imagination - Louis Vuitton",
     notes: "Cítrico, notas aquáticas, cedro, almíscar, âmbar cinza",
     icon: "💡🌊🍊",
-    tags: ["primavera", "verao", "dia"]
+    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 11,
@@ -119,7 +120,7 @@ const perfumes = [
     inspiredBy: "Cedrat Boise Intense - Mancera",
     notes: "Cedro, limão, almíscar, âmbar, sândalo, patchouli",
     icon: "🌲🍋🤎",
-    tags: ["primavera", "outono", "dia", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 12,
@@ -129,7 +130,7 @@ const perfumes = [
     inspiredBy: "Dior Homme Parfum",
     notes: "Cacau, íris, couro, madeira, âmbar, almíscar",
     icon: "🍫🌸🖤",
-    tags: ["outono", "inverno", "noite"]
+    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 13,
@@ -139,7 +140,7 @@ const perfumes = [
     inspiredBy: "Dior Homme Sport",
     notes: "Toranja, notas aquáticas, cedro, almíscar, madeira de lei",
     icon: "🏃💧🌿",
-    tags: ["primavera", "verao", "dia"]
+    tags: ["primavera","verão","outono", "inverno", "dia", "noite"]
   },
   {
     id: 14,
@@ -149,7 +150,7 @@ const perfumes = [
     inspiredBy: "Layton - Parfums de Marly",
     notes: "Maçã, bergamota, baunilha, flor de baunilha, almíscar, sândalo",
     icon: "🍎🌼🧡",
-    tags: ["outono", "inverno", "dia", "noite"]
+    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 15,
@@ -159,7 +160,7 @@ const perfumes = [
     inspiredBy: null,
     notes: "Lavanda, íris, âmbar, couro, cedro, almíscar cinza",
     icon: "🌸🖤🌿",
-    tags: ["outono", "inverno", "noite"]
+    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 16,
@@ -169,7 +170,7 @@ const perfumes = [
     inspiredBy: null,
     notes: "Toranja, notas aquáticas, cedro, almíscar, gengibre",
     icon: "⚡💧🏋️",
-    tags: ["primavera", "verao", "dia"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 17,
@@ -179,7 +180,7 @@ const perfumes = [
     inspiredBy: null,
     notes: "Íris, cacau, âmbar, madeira, almíscar, cedro",
     icon: "🌸🍫🌙",
-    tags: ["outono", "inverno", "noite"]
+    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 18,
@@ -189,7 +190,7 @@ const perfumes = [
     inspiredBy: "Torino 21 - Xerjoff",
     notes: "Rosa, sândalo, baunilha, almíscar branco, âmbar, patchouli",
     icon: "⬜🌹✨",
-    tags: ["primavera", "outono", "noite"]
+    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 19,
@@ -199,7 +200,7 @@ const perfumes = [
     inspiredBy: "Althair - Parfums de Marly",
     notes: "Bergamota, couro, sândalo, âmbar, almíscar, cedro",
     icon: "🤎🌲💫",
-    tags: ["outono", "inverno", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 20,
@@ -209,7 +210,7 @@ const perfumes = [
     inspiredBy: "God of Fire - Stéphane Humbert Lucas",
     notes: "Incenso, couro, oud, âmbar, madeira defumada, resina",
     icon: "🌋🔥🖤",
-    tags: ["outono", "inverno", "noite"]
+    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 21,
@@ -219,7 +220,7 @@ const perfumes = [
     inspiredBy: "Angel Share - KILIAN",
     notes: "Conhaque, baunilha, carvalho, âmbar, almíscar, sândalo",
     icon: "🥃🌙👑",
-    tags: ["outono", "inverno", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 22,
@@ -229,7 +230,7 @@ const perfumes = [
     inspiredBy: null,
     notes: "Limão, hortelã, cana-de-açúcar, notas verdes, almíscar, madeira",
     icon: "🍹🌿🍋",
-    tags: ["primavera", "verao", "dia"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 23,
@@ -239,7 +240,7 @@ const perfumes = [
     inspiredBy: "Blue Talisman - Ex Nihilo",
     notes: "Bergamota, notas aquáticas, âmbar cinza, almíscar, cedro",
     icon: "💙🌊✨",
-    tags: ["primavera", "verao", "dia"]
+    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 24,
@@ -249,7 +250,7 @@ const perfumes = [
     inspiredBy: "Torino 21 - Xerjoff",
     notes: "Rosa, sândalo, baunilha, almíscar, âmbar, patchouli",
     icon: "🌹🕯️🤍",
-    tags: ["primavera", "outono", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 25,
@@ -259,7 +260,7 @@ const perfumes = [
     inspiredBy: "Tuxedo - Yves Saint Laurent",
     notes: "Íris, couro, sândalo, madeira, almíscar, âmbar",
     icon: "🎩🖤🌸",
-    tags: ["outono", "inverno", "noite"]
+    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 26,
@@ -269,7 +270,7 @@ const perfumes = [
     inspiredBy: "Armani Code EDP",
     notes: "Bergamota, especiados, couro, âmbar, madeira, almíscar",
     icon: "🌙📖🖤",
-    tags: ["outono", "inverno", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 27,
@@ -279,7 +280,7 @@ const perfumes = [
     inspiredBy: "Stronger With You Intensely - Armani",
     notes: "Caramelo, baunilha, sálvia, cedro, notas defumadas, almíscar",
     icon: "⚔️🍯🌙",
-    tags: ["outono", "inverno", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 28,
@@ -289,7 +290,7 @@ const perfumes = [
     inspiredBy: "Y EDP - Yves Saint Laurent",
     notes: "Maçã, salva, cedro, âmbar, almíscar, vetiver",
     icon: "🍎🌿💫",
-    tags: ["primavera", "outono", "dia", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 29,
@@ -299,7 +300,7 @@ const perfumes = [
     inspiredBy: "Allure Edition Blanche - Chanel",
     notes: "Limão, baunilha, almíscar branco, cedro, âmbar, notas cítricas",
     icon: "🍋🤍🌲",
-    tags: ["primavera", "verao", "dia"]
+    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 30,
@@ -309,7 +310,7 @@ const perfumes = [
     inspiredBy: "Armani Code Absolu Gold",
     notes: "Bergamota, mel, couro, baunilha, sândalo, âmbar dourado",
     icon: "🏅🌙🍯",
-    tags: ["outono", "inverno", "noite"]
+    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 31,
@@ -319,7 +320,7 @@ const perfumes = [
     inspiredBy: "Acqua di Gio Profumo - Armani",
     notes: "Notas aquáticas, incenso, patchouli, âmbar, almíscar, bergamota",
     icon: "🌊🖤🌿",
-    tags: ["primavera", "verao", "dia", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 32,
@@ -329,7 +330,7 @@ const perfumes = [
     inspiredBy: "Pour Homme EDP - Bvlgari",
     notes: "Bergamota, chá, sândalo, almíscar, âmbar, madeira",
     icon: "☕🌟🌲",
-    tags: ["outono", "inverno", "noite"]
+    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 33,
@@ -339,7 +340,7 @@ const perfumes = [
     inspiredBy: null,
     notes: "Notas aquáticas, lótus, lírio do vale, âmbar cinza, almíscar, cedro",
     icon: "💧🌸🌊",
-    tags: ["primavera", "verao", "dia"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 34,
@@ -349,7 +350,7 @@ const perfumes = [
     inspiredBy: "Torino 21 - Xerjoff",
     notes: "Rosa, sândalo, âmbar, baunilha, almíscar, patchouli",
     icon: "🐂🌹✨",
-    tags: ["outono", "inverno", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 35,
@@ -359,7 +360,7 @@ const perfumes = [
     inspiredBy: "GYAN - Bvlgari",
     notes: "Notas verdes, vetiver, cedro, almíscar, âmbar, madeira",
     icon: "🌿🌲💚",
-    tags: ["primavera", "outono", "dia"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 36,
@@ -369,7 +370,7 @@ const perfumes = [
     inspiredBy: "Millésime Impérial - Creed",
     notes: "Bergamota, íris, notas marinhas, almíscar, âmbar cinza, cedro",
     icon: "👑🌊💎",
-    tags: ["primavera", "verao", "dia"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 37,
@@ -379,8 +380,9 @@ const perfumes = [
     inspiredBy: "Greenley - Parfums de Marly / Creed",
     notes: "Bergamota, maçã, cedro, vetiver, âmbar, almíscar",
     icon: "🍏🌿🔄",
-    tags: ["primavera", "verao", "dia"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
+  
   {
     id: 38,
     name: "Sublime",
@@ -389,8 +391,9 @@ const perfumes = [
     inspiredBy: "Sublime Vanille - Creed",
     notes: "Baunilha, âmbar, almíscar, sândalo, florais, madeira",
     icon: "🌼🍦✨",
-    tags: ["outono", "inverno", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
+
   {
     id: 39,
     name: "Black Ghost",
@@ -399,7 +402,7 @@ const perfumes = [
     inspiredBy: "Black Phantom - KILIAN Paris",
     notes: "Rum, café, caramelo, baunilha, âmbar, almíscar",
     icon: "👻🖤☕",
-    tags: ["outono", "inverno", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", ]
   },
   {
     id: 40,
@@ -409,7 +412,7 @@ const perfumes = [
     inspiredBy: "Hanuman - Boadicea",
     notes: "Rosa, oud, âmbar, sândalo, almíscar, especiado",
     icon: "🐒🌺🪵",
-    tags: ["outono", "inverno", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 41,
@@ -419,7 +422,7 @@ const perfumes = [
     inspiredBy: "Imagination - Louis Vuitton",
     notes: "Cítrico, notas aquáticas, cedro, almíscar, âmbar cinza",
     icon: "💭🌊🍋",
-    tags: ["primavera", "verao", "dia"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 42,
@@ -429,7 +432,7 @@ const perfumes = [
     inspiredBy: "1861 Renaissance - Xerjoff",
     notes: "Bergamota, flores brancas, almíscar, âmbar, sândalo",
     icon: "💐✨🌟",
-    tags: ["primavera", "verao", "dia"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 43,
@@ -439,7 +442,7 @@ const perfumes = [
     inspiredBy: null,
     notes: "Lavanda, baunilha, âmbar, almíscar, couro, notas quentes",
     icon: "💙🫙🌹",
-    tags: ["outono", "inverno", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 44,
@@ -449,7 +452,7 @@ const perfumes = [
     inspiredBy: "La Nuit de L'Homme Bleu Électrique - YSL",
     notes: "Cardamomo, bergamota, lavanda, couro, âmbar, sândalo",
     icon: "💜🌙⚡",
-    tags: ["outono", "inverno", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 45,
@@ -459,7 +462,7 @@ const perfumes = [
     inspiredBy: "Dior Homme Sport 2021",
     notes: "Cítrico, toranja, notas aquáticas, cedro, almíscar, vetiver",
     icon: "🚪⚡💧",
-    tags: ["primavera", "verao", "dia"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 46,
@@ -469,7 +472,7 @@ const perfumes = [
     inspiredBy: "Y EDP + EDT - Yves Saint Laurent",
     notes: "Maçã, bergamota, sálvia, cedro, âmbar, almíscar",
     icon: "🍎🌿💛",
-    tags: ["primavera", "outono", "dia", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 47,
@@ -479,7 +482,7 @@ const perfumes = [
     inspiredBy: null,
     notes: "Gin, zimbro, bergamota, almíscar, notas herbais, âmbar",
     icon: "🍸👑🌿",
-    tags: ["primavera", "verao", "dia", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 48,
@@ -489,7 +492,7 @@ const perfumes = [
     inspiredBy: null,
     notes: "Rosa, cereja, licor, baunilha, almíscar, notas florais",
     icon: "🌹🍒🍹",
-    tags: ["primavera", "verao", "dia"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 49,
@@ -499,7 +502,7 @@ const perfumes = [
     inspiredBy: null,
     notes: "Pêssego, laranja, baunilha, almíscar, notas frutadas, âmbar",
     icon: "🍑🍊✨",
-    tags: ["primavera", "verao", "dia"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 50,
@@ -509,7 +512,7 @@ const perfumes = [
     inspiredBy: null,
     notes: "Jasmin, coco, abacaxi, âmbar, almíscar, notas tropicais",
     icon: "🌺🥥🍍",
-    tags: ["primavera", "verao", "dia"]
+    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 51,
@@ -519,7 +522,7 @@ const perfumes = [
     inspiredBy: null,
     notes: "Bergamota, chá Earl Grey, âmbar, almíscar, madeira, notas cítricas",
     icon: "🍋🫖🌿",
-    tags: ["primavera", "verao", "dia"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 52,
@@ -529,7 +532,7 @@ const perfumes = [
     inspiredBy: null,
     notes: "Hortelã, limão, couro, âmbar, almíscar, notas verdes",
     icon: "🍹🌿👜",
-    tags: ["primavera", "verao", "dia"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 53,
@@ -539,7 +542,7 @@ const perfumes = [
     inspiredBy: null,
     notes: "Limão, cachaça, oud, âmbar, almíscar, notas resinosas",
     icon: "🍋🇧🇷🪵",
-    tags: ["verao", "outono", "noite"]
+    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 54,
@@ -549,7 +552,7 @@ const perfumes = [
     inspiredBy: null,
     notes: "Almíscar, gengibre, limão, âmbar, notas especiadas, madeira",
     icon: "🫏🌶️🤍",
-    tags: ["primavera", "outono", "dia", "noite"]
+    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 55,
@@ -559,7 +562,7 @@ const perfumes = [
     inspiredBy: null,
     notes: "Tabaco, conhaque, baunilha, âmbar, couro, notas amadeiradas",
     icon: "🍷🚬🤎",
-    tags: ["outono", "inverno", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 56,
@@ -569,7 +572,7 @@ const perfumes = [
     inspiredBy: null,
     notes: "Whisky, patchouli, âmbar, almíscar, couro, notas defumadas",
     icon: "🥃🌱🖤",
-    tags: ["outono", "inverno", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 57,
@@ -579,7 +582,7 @@ const perfumes = [
     inspiredBy: null,
     notes: "Oud, bourbon, baunilha, âmbar, almíscar, couro",
     icon: "🥃🪵🌙",
-    tags: ["outono", "inverno", "noite"]
+    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 58,
@@ -589,7 +592,7 @@ const perfumes = [
     inspiredBy: null,
     notes: "Âmbar, bourbon, baunilha, almíscar, madeira, notas quentes",
     icon: "🧡🥃✨",
-    tags: ["outono", "inverno", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 59,
@@ -599,7 +602,7 @@ const perfumes = [
     inspiredBy: null,
     notes: "Bergamota, notas verdes, sândalo, almíscar, cedro, âmbar",
     icon: "🌿🇧🇷💚",
-    tags: ["primavera", "verao", "dia"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 60,
@@ -609,7 +612,7 @@ const perfumes = [
     inspiredBy: null,
     notes: "Cítrico, especiado, madeira, almíscar, âmbar, sândalo",
     icon: "🌟🌿🍊",
-    tags: ["primavera", "outono", "dia"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 61,
@@ -619,7 +622,7 @@ const perfumes = [
     inspiredBy: "Musk Therapy - Initio Parfums",
     notes: "Almíscar, sândalo, âmbar, baunilha, notas quentes, almíscar branco",
     icon: "🤍☁️✨",
-    tags: ["primavera", "outono", "dia", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 62,
@@ -629,7 +632,7 @@ const perfumes = [
     inspiredBy: "Allure Homme Sport - Chanel",
     notes: "Notas aquáticas, cedro, almíscar, âmbar cinza, bergamota, madeira",
     icon: "⚡🌊💪",
-    tags: ["primavera", "verao", "dia"]
+    tags: ["primavera","verao","outono", "dia", "noite"]
   },
   {
     id: 63,
@@ -639,7 +642,7 @@ const perfumes = [
     inspiredBy: "Solo Loewe",
     notes: "Tomilho, âmbar, rosewood, almíscar, madeira, notas herbais",
     icon: "🌎🌿🌙",
-    tags: ["primavera", "outono", "dia"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 64,
@@ -649,7 +652,7 @@ const perfumes = [
     inspiredBy: "The One - Dolce & Gabbana",
     notes: "Cardamomo, gengibre, cedro, âmbar, almíscar, sândalo",
     icon: "🏔️🌿🧡",
-    tags: ["outono", "inverno", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 65,
@@ -659,7 +662,7 @@ const perfumes = [
     inspiredBy: "Code Parfum - Armani",
     notes: "Bergamota, couro, âmbar, almíscar, sândalo, notas quentes",
     icon: "🏛️🖤💫",
-    tags: ["outono", "inverno", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 66,
@@ -669,7 +672,7 @@ const perfumes = [
     inspiredBy: "Vanilla 28 - Kayali",
     notes: "Baunilha, âmbar, almíscar, sândalo, notas doces, benjoin",
     icon: "🍦🤍🌙",
-    tags: ["outono", "inverno", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 67,
@@ -679,7 +682,7 @@ const perfumes = [
     inspiredBy: "Allure Homme Sport Eau Extrême - Chanel",
     notes: "Bergamota, vetiver, cedro, almíscar, âmbar cinza, notas frescas",
     icon: "🏎️🌿💨",
-    tags: ["primavera", "verao", "dia"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 68,
@@ -689,7 +692,7 @@ const perfumes = [
     inspiredBy: "Imagination - Louis Vuitton",
     notes: "Cítrico, notas aquáticas, cedro, âmbar cinza, almíscar, madeira",
     icon: "🌠💭🌊",
-    tags: ["primavera", "verao", "dia"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 69,
@@ -699,7 +702,7 @@ const perfumes = [
     inspiredBy: "Angels' Share - KILIAN Paris",
     notes: "Conhaque, caramelo, baunilha, carvalho, âmbar, almíscar",
     icon: "👼🥃✨",
-    tags: ["outono", "inverno", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 70,
@@ -709,7 +712,7 @@ const perfumes = [
     inspiredBy: "Stronger With You Tobacco - Armani",
     notes: "Tabaco, baunilha, couro, âmbar, almíscar, notas defumadas",
     icon: "🚀🍂🖤",
-    tags: ["outono", "inverno", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 71,
@@ -719,7 +722,7 @@ const perfumes = [
     inspiredBy: "ANI - Nishane",
     notes: "Rosa, oud, sândalo, âmbar, almíscar, notas orientais",
     icon: "🌹🪵🌟",
-    tags: ["outono", "inverno", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 72,
@@ -729,7 +732,7 @@ const perfumes = [
     inspiredBy: "Layton - Parfums de Marly",
     notes: "Oud, maçã, baunilha, âmbar, sândalo, especiado",
     icon: "🪵👑🍎",
-    tags: ["outono", "inverno", "noite"]
+    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 73,
@@ -739,7 +742,7 @@ const perfumes = [
     inspiredBy: null,
     notes: "Toranja, patchouli, incenso, âmbar cinza, almíscar, madeira",
     icon: "⚡🏆🌊",
-    tags: ["primavera", "outono", "dia", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 74,
@@ -749,7 +752,7 @@ const perfumes = [
     inspiredBy: "Prada L'Homme",
     notes: "Íris, sálvia, cedro, almíscar, âmbar, notas frescas",
     icon: "🎨🌿💙",
-    tags: ["primavera", "verao", "dia"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 75,
@@ -759,7 +762,7 @@ const perfumes = [
     inspiredBy: null,
     notes: "Notas autoral, madeira, almíscar, âmbar, notas únicas",
     icon: "🌿🇧🇷⭐",
-    tags: ["primavera", "outono", "dia"]
+    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 76,
@@ -769,7 +772,7 @@ const perfumes = [
     inspiredBy: "Polo Blue EDT - Ralph Lauren",
     notes: "Melão, notas aquáticas, cedro, almíscar, âmbar cinza, madeira",
     icon: "🌋💧🔵",
-    tags: ["primavera", "verao", "dia"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 77,
@@ -779,7 +782,7 @@ const perfumes = [
     inspiredBy: "Armani Code EDT",
     notes: "Bergamota, anís, couro, almíscar, âmbar, madeira",
     icon: "🌑🌿🖤",
-    tags: ["outono", "inverno", "noite"]
+    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 78,
@@ -789,7 +792,7 @@ const perfumes = [
     inspiredBy: "Dior Homme Sport (antigo)",
     notes: "Toranja, notas cítricas, cedro, almíscar, âmbar, frescor",
     icon: "🐉💧🌿",
-    tags: ["primavera", "verao", "dia"]
+    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 79,
@@ -799,7 +802,7 @@ const perfumes = [
     inspiredBy: "212 Heroes - Carolina Herrera",
     notes: "Bergamota, notas aquáticas, vetiver, almíscar, âmbar, cedro",
     icon: "🦸💙🌊",
-    tags: ["primavera", "verao", "dia"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 80,
@@ -809,7 +812,7 @@ const perfumes = [
     inspiredBy: "CH Men EDT - Carolina Herrera",
     notes: "Sálvia, cedro, âmbar, almíscar, notas verdes, madeira",
     icon: "🌿🏛️💚",
-    tags: ["primavera", "outono", "dia"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 81,
@@ -819,7 +822,7 @@ const perfumes = [
     inspiredBy: "Aventus - Creed",
     notes: "Abacaxi, bergamota, bétula, patchouli, almíscar, âmbar",
     icon: "🍍🏎️🌲",
-    tags: ["primavera", "outono", "dia", "noite"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 82,
@@ -829,7 +832,7 @@ const perfumes = [
     inspiredBy: "Ocean EDP - Prada",
     notes: "Notas marinhas, bergamota, âmbar cinza, almíscar, cedro, madeira",
     icon: "🌊🏄💙",
-    tags: ["primavera", "verao", "dia"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 83,
@@ -839,7 +842,7 @@ const perfumes = [
     inspiredBy: "Boss Bottled Intense - Hugo Boss",
     notes: "Maçã, canela, baunilha, madeira, âmbar, almíscar",
     icon: "👔🍎🌙",
-    tags: ["outono", "inverno", "noite"]
+    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 84,
@@ -849,7 +852,7 @@ const perfumes = [
     inspiredBy: "Imagination - Louis Vuitton",
     notes: "Cítrico, notas aquáticas, cedro, âmbar cinza, almíscar, leveza",
     icon: "😇🌤️💫",
-    tags: ["primavera", "verao", "dia"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
     id: 85,
@@ -859,7 +862,7 @@ const perfumes = [
     inspiredBy: "L'Homme L'Eau - Prada",
     notes: "Bergamota, íris, notas aquáticas, cedro, almíscar, notas frescas",
     icon: "💧🌸🌊",
-    tags: ["primavera", "verao", "dia"]
+    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   }
 
   // ── ADICIONE SEUS PERFUMES AQUI ──────────────
