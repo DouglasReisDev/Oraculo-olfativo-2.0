@@ -20,7 +20,7 @@ const perfumes = [
     inspiredBy: null,
     notes: "Oud, baunilha, âmbar, sândalo, almíscar, especiarias",
     icon: "🪵🌙✨",
-    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
+    tags: ["primavera","outono", "inverno", "noite"]
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ const perfumes = [
     inspiredBy: "Dior Sauvage EDT",
     notes: "Bergamota, pimenta, lavanda, ambroxan, vetiver, cedro",
     icon: "🌊💨🌿",
-    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
+    tags:["primavera","verao","outono","dia", "noite"]
   },
   {
     id: 3,
@@ -50,7 +50,7 @@ const perfumes = [
     inspiredBy: "Aventus Absolu - Creed",
     notes: "Abacaxi, bergamota, bétula, patchouli, almíscar, âmbar",
     icon: "🍍🌲👑",
-    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
+    tags:["primavera","verao","outono", "dia", "noite"]
   },
   {
     id: 5,
@@ -70,7 +70,7 @@ const perfumes = [
     inspiredBy: "Vibrato + Tygar - Sospiro",
     notes: "Rosa, patchouli, couro, baunilha, almíscar, especiado",
     icon: "🌹🖤🎵",
-    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
+    tags: ["primavera","verao","outono", "dia", "noite"]
   },
   {
     id: 7,
@@ -80,7 +80,7 @@ const perfumes = [
     inspiredBy: "Y EDP Intense - Yves Saint Laurent",
     notes: "Maçã, salva, cedro, âmbar, almíscar branco, madeira",
     icon: "🍎🌿⚡",
-    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
+    tags: ["primavera","verao","outono", "dia", "noite"]
   },
   {
     id: 8,
@@ -100,7 +100,7 @@ const perfumes = [
     inspiredBy: "Prada Luna Rossa",
     notes: "Lavanda, toranja, bergamota, almíscar, labdano, madeira",
     icon: "🌕💜🌿",
-    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
+    tags: ["primavera","outono","inverno", "dia", "noite"]
   },
   {
     id: 10,
@@ -110,7 +110,7 @@ const perfumes = [
     inspiredBy: "Imagination - Louis Vuitton",
     notes: "Cítrico, notas aquáticas, cedro, almíscar, âmbar cinza",
     icon: "💡🌊🍊",
-    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
+    tags:["primavera","outono", "dia", "noite"]
   },
   {
     id: 11,
@@ -120,7 +120,7 @@ const perfumes = [
     inspiredBy: "Cedrat Boise Intense - Mancera",
     notes: "Cedro, limão, almíscar, âmbar, sândalo, patchouli",
     icon: "🌲🍋🤎",
-    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
+    tags: ["primavera","outono", "inverno", "dia", "noite"]
   },
   {
     id: 12,
@@ -130,7 +130,7 @@ const perfumes = [
     inspiredBy: "Dior Homme Parfum",
     notes: "Cacau, íris, couro, madeira, âmbar, almíscar",
     icon: "🍫🌸🖤",
-    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
+    tags:["outono","inverno","noite"]
   },
   {
     id: 13,
@@ -140,18 +140,19 @@ const perfumes = [
     inspiredBy: "Dior Homme Sport",
     notes: "Toranja, notas aquáticas, cedro, almíscar, madeira de lei",
     icon: "🏃💧🌿",
-    tags: ["primavera","verão","outono", "inverno", "dia", "noite"]
+    tags: ["primavera","verão","outono","dia","noite"]
   },
   {
     id: 14,
-    name: "LIII",
-    brand: "Brian Peterson",
+    name: "L'Homme L'Eau",
+    brand: "Vivant",
     category: "Contratipo",
-    inspiredBy: "Layton - Parfums de Marly",
-    notes: "Maçã, bergamota, baunilha, flor de baunilha, almíscar, sândalo",
-    icon: "🍎🌼🧡",
-    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
+    inspiredBy: "L'Homme L'Eau - Prada",
+    notes: "Bergamota, íris, notas aquáticas, cedro, almíscar, notas frescas",
+    icon: "💧🌸🌊",
+    tags: ["primavera","verao","outono", "dia",]
   },
+  
   {
     id: 15,
     name: "Homme",
@@ -160,7 +161,7 @@ const perfumes = [
     inspiredBy: null,
     notes: "Lavanda, íris, âmbar, couro, cedro, almíscar cinza",
     icon: "🌸🖤🌿",
-    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
+    tags:["primavera","outono", "inverno", "dia", "noite"]
   },
   {
     id: 16,
@@ -180,7 +181,7 @@ const perfumes = [
     inspiredBy: null,
     notes: "Íris, cacau, âmbar, madeira, almíscar, cedro",
     icon: "🌸🍫🌙",
-    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
+    tags:["outono", "inverno", "noite"]
   },
   {
     id: 18,
@@ -190,7 +191,7 @@ const perfumes = [
     inspiredBy: "Torino 21 - Xerjoff",
     notes: "Rosa, sândalo, baunilha, almíscar branco, âmbar, patchouli",
     icon: "⬜🌹✨",
-    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
+    tags:["primavera","verao","outono","dia",]
   },
   {
     id: 19,
@@ -200,7 +201,7 @@ const perfumes = [
     inspiredBy: "Althair - Parfums de Marly",
     notes: "Bergamota, couro, sândalo, âmbar, almíscar, cedro",
     icon: "🤎🌲💫",
-    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
+    tags: ["outono", "inverno", "noite"]
   },
   {
     id: 20,
@@ -210,7 +211,7 @@ const perfumes = [
     inspiredBy: "God of Fire - Stéphane Humbert Lucas",
     notes: "Incenso, couro, oud, âmbar, madeira defumada, resina",
     icon: "🌋🔥🖤",
-    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
+    tags:["primavera","verao","dia"]
   },
   {
     id: 21,
@@ -220,8 +221,9 @@ const perfumes = [
     inspiredBy: "Angel Share - KILIAN",
     notes: "Conhaque, baunilha, carvalho, âmbar, almíscar, sândalo",
     icon: "🥃🌙👑",
-    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
+    tags: ["outono", "inverno","noite"]
   },
+    //parei aqui 
   {
     id: 22,
     name: "Mojito Obsession",
@@ -854,16 +856,7 @@ const perfumes = [
     icon: "😇🌤️💫",
     tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
   },
-  {
-    id: 85,
-    name: "L'Homme L'Eau",
-    brand: "Vivant",
-    category: "Contratipo",
-    inspiredBy: "L'Homme L'Eau - Prada",
-    notes: "Bergamota, íris, notas aquáticas, cedro, almíscar, notas frescas",
-    icon: "💧🌸🌊",
-    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
-  }
+  
 
   // ── ADICIONE SEUS PERFUMES AQUI ──────────────
   // Exemplo comentado:
@@ -871,6 +864,8 @@ const perfumes = [
   //   id:N° ,
   //   name: "La Vie Est Belle",
   //   brand: "Lancôme",
+  //   category: XXXXX
+  //   inspiredby:XXXXX 
   //   notes: "Íris, pralinê, baunilha, patchouli",
   //   icon: "💜",
   //   tags: ["outono", "inverno", "dia", "noite"]
@@ -913,7 +908,7 @@ function tagLabel(t) {
   return map[t] || t;
 }
 
-// ─── filter logic ─────────────────────────────
+// ─── logica do filtro ─────────────────────────────
 function applyFilters() {
   const cards = grid.querySelectorAll('.card[data-id]');
   visibleIds = [];
@@ -941,7 +936,7 @@ function applyFilters() {
     : `Sorteie entre ${count} perfumes visíveis`;
 }
 
-// ─── filter buttons ───────────────────────────
+// ─── botões filtro ───────────────────────────
 document.querySelectorAll('.filter-btn').forEach(btn => {
   btn.addEventListener('click', () => {
     const cat = btn.dataset.cat;
