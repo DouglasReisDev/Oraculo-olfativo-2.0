@@ -95,7 +95,7 @@ header h1 em {
 
 .filters-label {
   text-align: center;
-  font-size: 9px;
+  font-size: 10px;
   letter-spacing: 0.5em;
   text-transform: uppercase;
   color: var(--text-muted);
