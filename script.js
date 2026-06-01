@@ -140,7 +140,7 @@ const perfumes = [
     inspiredBy: "Dior Homme Sport",
     notes: "Toranja, notas aquáticas, cedro, almíscar, madeira de lei",
     icon: "🏃💧🌿",
-    tags: ["primavera","verão","outono","dia","noite"]
+    tags: ["primavera","verao","outono","dia","noite"]
   },
   {
     id: 14,
