@@ -14,7 +14,7 @@
   --tag-winter: #7ab3cc;
   --tag-day: #e8d878;
   --tag-night: #9d85c4;
-  --radius: 10px;
+  --radius: 16px;
   --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -492,7 +492,7 @@ header h1 em {
 
 .modal-notes {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 15px;
+  font-size: 20px;
   font-style: italic;
   color: var(--text-muted);
   margin-bottom: 28px;
@@ -554,4 +554,54 @@ header h1 em {
 /* Scrollbar */
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: var(--bg); }
-::-webkit-scrollbar-thumb { background: var(--gold-dim); border-radius: 2px; }
+::-webkit-scrollbar-thumb { background: var(--gold-dim); border-radius: 2px; }   
+
+/* ── RESPONSIVIDADE (MOBILE) ───────────────────────── */
+@media (max-width: 768px) {
+  
+  /* 1. Ajuste do Grid e Margens */
+  .grid {
+    /* Reduz o espaçamento lateral para aproveitar a tela do celular */
+    padding: 20px 16px 30px; 
+    /* Força 1 coluna que ocupa a largura toda de forma mais fluida */
+    grid-template-columns: 1fr; 
+    gap: 16px;
+  }
+
+  /* 2. Ajuste dos Filtros */
+  .filters {
+    gap: 6px;
+  }
+  
+  .filter-btn {
+    /* Diminui um pouco o padding para caberem mais opções na tela */
+    padding: 8px 12px; 
+  }
+
+  /* 3. Ajustes do Modal (A tela de Sorteio) */
+  .modal {
+    /* Diminui o respiro interno do modal no celular */
+    padding: 32px 20px; 
+    width: 95%; /* Aproveita mais a largura */
+  }
+
+  .modal-name {
+    /* Reduz o tamanho da fonte do nome do perfume para evitar quebra de texto ruim */
+    font-size: 28px; 
+  }
+
+  .modal-actions {
+    /* Coloca os botões um em cima do outro se necessário */
+    flex-direction: column; 
+    width: 100%;
+  }
+
+  .btn-modal {
+    width: 100%; /* Botões do modal ocupam toda a largura no celular */
+  }
+
+  /* 4. Título Principal */
+  header {
+    padding: 40px 16px 20px;
+  }
+}
