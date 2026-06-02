@@ -15,11 +15,11 @@ const perfumes = [
    {
     id: 1,
     name: "Satin Body Oud",
-    brand: "ABDUL SAMAD AL QURASH",
+    brand: "ABDUL SAMAD AL QURASH", 
     category: "Nicho",
     inspiredBy: null,
-    notes: "Oud, baunilha, âmbar, sândalo, almíscar, especiarias",
-    icon: "🪵🌙✨",
+    notes: "bergamota,lavanda, flor de laranjeira, jasmin, mandarina, pêra, oud cedro, pachouli, vetiver, baunilha,âmbar",
+    icon: "🍐🌼🪵",
     tags: ["primavera","outono", "inverno", "noite"]
   },
   {
@@ -48,7 +48,7 @@ const perfumes = [
     brand: "Afnan",
     category: "CT Árabe",
     inspiredBy: "Aventus Absolu - Creed",
-    notes: "Abacaxi, bergamota, bétula, patchouli, almíscar, âmbar",
+    notes: "Abacaxi, bergamota, bétula, patchouli, almíscar, âmbar, musgo de carvalho, âmbar cinzento",
     icon: "🍍🌲👑",
     tags:["primavera","verao","outono", "dia", "noite"]
   },
@@ -58,8 +58,8 @@ const perfumes = [
     brand: "Armani",
     category: "Importado design",
     inspiredBy: null,
-    notes: "Bergamota, limão, anís, couro, almíscar, madeira",
-    icon: "🍋🖤💼",
+    notes: "Mandarina,Lavanda,Fava tonka, Cedro",
+    icon: "🍋🪻💼",
     tags:["primavera","verao","outono", "inverno", "dia", "noite"]
   },
   {
@@ -68,10 +68,10 @@ const perfumes = [
     brand: "Aurora Scents",
     category: "CT Árabe",
     inspiredBy: "Vibrato + Tygar - Sospiro",
-    notes: "Rosa, patchouli, couro, baunilha, almíscar, especiado",
-    icon: "🌹🖤🎵",
+    notes: "Toranja,gengibre, bergamota,mandarina,cedro, jasmin, raiz de orris, rosa, almiscar, acorde amadeirado",
+    icon: "🍊🫚🪵",
     tags: ["primavera","verao","outono", "dia", "noite"]
-  },
+  },          // parei aqui a revisão 
   {
     id: 7,
     name: "Be Intense",
