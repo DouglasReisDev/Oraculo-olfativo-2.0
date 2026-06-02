@@ -84,13 +84,13 @@ const perfumes = [
   },
   {
     id: 8,
-    name: "l'home Up",
+    name: "L'home Up",
     brand: "Azza parfums",
     category: "Contratipo",
     inspiredBy: "Prada L'Homme Intense",
     notes: "Íris, âmbar, sálvia, cedro, sândalo, almíscar",
     icon: "🌸🪵💫",
-    tags: ["primavera","verao","outono", "inverno", "dia", "noite"]
+    tags: ["primavera","outono", "inverno", "noite"]
   },
   {
     id: 9,
