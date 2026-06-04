@@ -236,7 +236,7 @@ header h1 em {
   top: 14px;
   right: 18px;
   font-family: 'Cormorant Garamond', serif;
-  font-size: 11px;
+  font-size: 14px;
   font-style: italic;
   color: var(--gold-dim);
   letter-spacing: 0.1em;
@@ -282,15 +282,19 @@ header h1 em {
 
 .card-image-placeholder svg {
   opacity: 0.3;
-  width: 28px;
-  height: 28px;
+  width: 48px;
+  height: 48px;
 }
 
-.card-image-placeholder span { opacity: 0.45; }
+.card-image-placeholder span { 
+  opacity: 0.45; 
+  font-size: 11px;
+  margin-top: 4px; 
+}
 
 .card-name {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 22px;
+  font-size: 26px;
   font-weight: 400;
   color: var(--cream);
   margin-bottom: 4px;
@@ -298,7 +302,7 @@ header h1 em {
 }
 
 .card-brand {
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 0.4em;
   text-transform: uppercase;
   color: var(--gold-dim);
@@ -306,7 +310,7 @@ header h1 em {
 }
 
 .card-notes {
-  font-size: 11px;
+  font-size: 15px;
   color: var(--text-muted);
   line-height: 1.7;
   font-style: italic;
@@ -322,11 +326,11 @@ header h1 em {
 }
 
 .tag {
-  font-size: 8px;
-  letter-spacing: 0.3em;
+  font-size: 10px;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
-  padding: 4px 10px;
-  border-radius: 1px;
+  padding: 5px 12px;
+  border-radius: 4px;
   font-weight: 400;
 }
 
