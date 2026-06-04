@@ -197,7 +197,7 @@ header h1 em {
   background: var(--card-bg);
   border: 1px solid var(--card-border);
   border-radius: var(--radius);
-  padding: 28px 24px 22px;
+  padding: 14px 24px 22px;
   position: relative;
   transition: var(--transition);
   animation: fadeIn 0.4s ease both;
@@ -233,13 +233,15 @@ header h1 em {
 /* Número decorativo */
 .card-number {
   position: absolute;
-  top: 14px;
-  right: 18px;
+  top: 22px;
+  right: 32px;
   font-family: 'Cormorant Garamond', serif;
   font-size: 14px;
   font-style: italic;
   color: var(--gold-dim);
   letter-spacing: 0.1em;
+  z-index: 5;
+
 }
 
 /* ── CARD IMAGE ─────────────────────────── */
