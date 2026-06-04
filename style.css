@@ -185,7 +185,8 @@ header h1 em {
 /* ── GRID ───────────────────────────────── */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  /* MUDANÇA AQUI: Alterei de 260px para 320px (isso deixa o card mais largo e robusto se der merda eu volto p/ verçao anterior) */
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); 
   gap: 20px;
   padding: 28px 32px 40px;
   max-width: 1400px;
@@ -247,7 +248,8 @@ header h1 em {
 /* ── CARD IMAGE ─────────────────────────── */
 .card-image-wrap {
   width: 100%;
-  height: 180px;
+  /* MUDANÇA AQUI: Alterei de 180px para 220px ou 240px */
+  height: 240px; 
   margin-bottom: 20px;
   border-radius: var(--radius);
   overflow: hidden;
