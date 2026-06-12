@@ -467,16 +467,17 @@ const perfumes = [
     icon: "🚪⚡💧",
     tags: ["primavera","verao","outono","dia"]
   },
-  {
+    {
     id: 46,
-    name: "Ghamra",
-    brand: "Mawwal",
-    category: "CT Árabe",
-    inspiredBy: "Y EDP + EDT - Yves Saint Laurent",
-    notes: "Maçã, bergamota, sálvia, cedro, âmbar, almíscar",
-    icon: "🍎🌿💛",
-    tags: ["primavera","verao","outono","dia", "noite"]
+    name: "Le Patron Intense",
+    brand: "Valentino Viegas",
+    category: "Contratipo",
+    inspiredBy: "Boss Bottled Intense - Hugo Boss",
+    notes: "Maçã, canela, baunilha, madeira, âmbar, almíscar",
+    icon: "👔🍎🌙",
+    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
   },
+
   {
     id: 47,
     name: "Kiris Royale",
@@ -697,15 +698,15 @@ const perfumes = [
     icon: "🌠💭🌊",
     tags: ["primavera","verao","dia"]
   },
-  {
+ {
     id: 69,
-    name: "Angel Lux",
-    brand: "Nuancielo",
+    name: "Ocean Pour Homme",
+    brand: "Valentino Viegas",
     category: "Contratipo",
-    inspiredBy: "Angels' Share - KILIAN Paris",
-    notes: "Conhaque, caramelo, baunilha, carvalho, âmbar, almíscar",
-    icon: "👼🥃✨",
-    tags: ["outono", "inverno", "noite"]
+    inspiredBy: "Ocean EDP - Prada",
+    notes: "Notas marinhas, bergamota, âmbar cinza, almíscar, cedro, madeira",
+    icon: "🌊🏄💙",
+    tags: ["primavera","verao","outono","dia", "noite"]
   },
   {
     id: 70,
@@ -828,28 +829,19 @@ const perfumes = [
     icon: "🍍🏎️🌲",
     tags: ["primavera","verao","outono","dia"]
   },
-  {
-    id: 82,
-    name: "Ocean Pour Homme",
-    brand: "Valentino Viegas",
-    category: "Contratipo",
-    inspiredBy: "Ocean EDP - Prada",
-    notes: "Notas marinhas, bergamota, âmbar cinza, almíscar, cedro, madeira",
-    icon: "🌊🏄💙",
-    tags: ["primavera","verao","outono","dia", "noite"]
-  },
-  {
-    id: 83,
-    name: "Le Patron Intense",
-    brand: "Valentino Viegas",
-    category: "Contratipo",
-    inspiredBy: "Boss Bottled Intense - Hugo Boss",
-    notes: "Maçã, canela, baunilha, madeira, âmbar, almíscar",
-    icon: "👔🍎🌙",
-    tags:["primavera","verao","outono", "inverno", "dia", "noite"]
-  },
   
+  // {
+  //  id: 82,
+  //  name: "Angel Lux",
+  //  brand: "Nuancielo",
+  //  category: "Contratipo",
+  //  inspiredBy: "Angels' Share - KILIAN Paris",
+  //  notes: "Conhaque, caramelo, baunilha, carvalho, âmbar, almíscar",
+  //  icon: "👼🥃✨",
+  //  tags: ["outono", "inverno", "noite"]
+  //},
   
+
 
   // ── ADICIONE SEUS PERFUMES AQUI ──────────────
   // Exemplo comentado:
