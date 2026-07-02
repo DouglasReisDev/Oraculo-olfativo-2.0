@@ -226,13 +226,13 @@ const perfumes = [
     
   {
     id: 22,
-    name: "Mojito Obsession",
-    brand: "Gulf Orchid",
-    category: "Importado design",
+    name: "XJ 1861 Naxos",
+    brand: "Xerjoff",
+    category: "nicho",
     inspiredBy: null,
-    notes: "Limão, hortelã, cana-de-açúcar, notas verdes, almíscar, madeira",
-    icon: "🍹🌿🍋",
-    tags: ["primavera","verao","dia", ]
+    notes: "lavanda, bergamota, limão, mel, canela, cashmeran,jasmin sambac, folha de tabaco, baunilha,fava tonka",
+    icon: "🍋",
+    tags:["primavera","outono", "inverno","noite"]
   },
   {
     id: 23,
